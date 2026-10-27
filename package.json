@@ -1,0 +1,24 @@
+{
+  "name": "core-web-vitals-audit-tool",
+  "version": "1.0.0",
+  "description": "Lightweight open-source CLI utility for auditing Core Web Vitals, INP task latency budgets, and connected JSON-LD schema graphs.",
+  "main": "bin/cli.js",
+  "bin": {
+    "cwv-audit": "./bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node bin/cli.js https://digital-marketing-experts.github.io/"
+  },
+  "keywords": [
+    "core-web-vitals",
+    "technical-seo",
+    "inp",
+    "web-performance",
+    "schema-org",
+    "json-ld"
+  ],
+  "author": "Digital Marketing Experts Open Systems Collective",
+  "license": "MIT"
+}
